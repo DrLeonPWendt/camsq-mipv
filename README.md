@@ -1,5 +1,7 @@
 # camsq-mipv
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23443816.svg)](https://doi.org/10.5281/zenodo.23443816)
+
 `camsq_mipv_analysis()` is an R function that models a criterion variable as a function of the two scales of the Certainty About Mental States Questionnaire (CAMSQ), Self-Certainty (SC) and Other-Certainty (OC). It calculates model-implied predicted values (MIPVs) of the criterion across the entire response surface spanned by SC and OC, and it tests differences in MIPVs between five theoretically defined CAMSQ profiles, which represent positions within this two-dimensional space:
 
 - **Effective**: high SC, moderate OC
@@ -14,7 +16,9 @@ The function was developed for and is documented in
 
 > Wendt, L. P., Kiel, L., Fonagy, P., Lind, M., Lukowitsky, M., Nolte, T., Wester, R., Rubel, J., Montague, P. R., & Zimmermann, J. (2026). *Revisiting the construct validity of self-reported mentalizing.* Manuscript in preparation.
 
-Please cite this paper when using the function.
+Please cite this paper and the archived function when using it:
+
+> Wendt, L. P. (2026). *camsq_mipv_analysis: Model-implied predicted values for CAMSQ profiles based on response surface analysis* (Version 1.0.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.23443816
 
 ## Installation
 
@@ -117,8 +121,6 @@ res <- camsq_mipv_analysis(
   show_min_max        = FALSE                # mark the minimum and maximum of the surface within the HDR
 )
 ```
-
-All remaining arguments are documented in the header of `camsq_mipv_analysis.R`.
 
 ## Versions
 
