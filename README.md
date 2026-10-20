@@ -101,7 +101,6 @@ res <- camsq_mipv_analysis(
   # plot: white box 1 (CV-R² and HDR)
   show_r2             = TRUE,                # box with CV-R² and selected HDR
   r2_position         = "topleft",           # corner of that box ("topleft", "topright", "bottomleft", "bottomright")
-  r2_text_size        = 2.7,                 # text size of both white boxes
 
   # plot: white box 2 (N)
   show_n              = TRUE,                # box with the number of complete cases
