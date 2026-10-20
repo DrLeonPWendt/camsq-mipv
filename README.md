@@ -4,9 +4,9 @@
 
 `camsq_mipv_analysis()` is an R function that models a criterion variable as a function of the two scales of the Certainty About Mental States Questionnaire (CAMSQ), Self-Certainty (SC) and Other-Certainty (OC). It calculates model-implied predicted values (MIPVs) of the criterion across the entire response surface spanned by SC and OC, and it tests differences in MIPVs between five theoretically defined CAMSQ profiles, which represent positions within this two-dimensional space:
 
-- **Effective**: high SC, moderate OC
-- **Hypo**: low SC, low OC
-- **Hyper**: low SC, high OC
+- **Effective (Mentalizing)**: high SC, moderate OC
+- **Hypo(mentalizing)**: low SC, low OC
+- **Hyper(mentalizing)**: low SC, high OC
 - **High-Certainty**: high SC, high OC
 - **Median**: moderate SC and OC
 
